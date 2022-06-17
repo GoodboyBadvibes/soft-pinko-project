@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+#intro{
+  background-image: linear-gradient(to right,rgba(156,91,218,0.8),rgba(156,91,218,0.6)),url('/IMAGE/hulgjayakfo.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#fixed-image{
+  background-image: linear-gradient(to right,rgba(156,91,218,0.8),rgba(156,91,218,0.6)),url('/IMAGE/hulgjayakfo.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+#card1:hover img,#card2:hover img,#card3:hover img{
+  background-color: palevioletred !important;
+  transition: .5s;
+}
+html,body{
+  overflow-x: hidden;
+
+}
+#pic1{
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+#pic1 img{
+  transition: all 0.8s ease;
+}
+
+#pic1:hover img{
+  transform: scale(1.3);
+}
