@@ -6,6 +6,11 @@
   font-family: 'Raleway', sans-serif;
 }
 
+#myNav{
+  width: 90%;
+  border-radius: 40px;
+}
+
 #intro{
   background-image: linear-gradient(to right,rgba(156,91,218,0.8),rgba(156,91,218,0.6)),url('/IMAGE/hulgjayakfo.jpg');
   background-size: cover;
@@ -29,7 +34,7 @@ html,body{
 }
 #pic1{
   overflow: hidden;
-  border-radius: 25px;
+  border-radius: 20px;
 }
 
 #pic1 img{
@@ -44,6 +49,13 @@ html,body{
   position: absolute;
   left: 28%;
   bottom: 0;
+}
+
+@media screen and (max-width:768px) {
+  #myNav{
+    width: 100%;
+    padding: 1rem;
+  }
 }
 
 @keyframes MoveUpDown {
